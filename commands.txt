@@ -1,0 +1,10 @@
+webots src/op3-webots/op3_webots_ros2/worlds/field.wbt
+export WEBOTS_CONTROLLER_URL=tcp://localhost:1234/ROBOTIS_OP3_0
+ros2 run op3_webots_ros2 op3_extern_controller
+ros2 launch op3_manager op3_simulation.launch.py
+
+ros2 launch op3_webots_ros2 robot_launch.py
+
+ros2 launch op3_gui_demo op3_demo.launch.py
+
+ros2 launch op3_webots_ros2 robot_and_manager.launch.py

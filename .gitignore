@@ -49,3 +49,12 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+log/
+install/
+.vscode/
+
+# Ignore everything under src/
+src/*
+
+# But keep op3-soccer
+!src/op3-soccer
