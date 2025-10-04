@@ -44,6 +44,9 @@ add_executable(op_demo_node
   src/soccer/soccer_demo.cpp
   src/soccer/ball_tracker.cpp
   src/soccer/ball_follower.cpp
+  src/action/action_demo.cpp
+  src/vision/vision_demo.cpp
+  src/vision/face_tracker.cpp
 )
 
 ament_target_dependencies(op_demo_node
