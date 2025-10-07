@@ -16,7 +16,7 @@
 
 /* Author: Kayman Jung */
 
-#include "op3_demo/ball_follower.h"
+#include "op3_soccer/ball_follower.h"
 
 namespace robotis_op
 {

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(op3_demo)
+project(op3_soccer)
 
 find_package(ament_cmake REQUIRED)
 find_package(ament_index_cpp REQUIRED)
@@ -39,17 +39,14 @@ include_directories(
   ${YAML_CPP_INCLUDE_DIRS}
 )
 
-add_executable(op_demo_node 
+add_executable(op3_soccer_node 
   src/demo_node.cpp
   src/soccer/soccer_demo.cpp
   src/soccer/ball_tracker.cpp
   src/soccer/ball_follower.cpp
-  src/action/action_demo.cpp
-  src/vision/vision_demo.cpp
-  src/vision/face_tracker.cpp
 )
 
-ament_target_dependencies(op_demo_node
+ament_target_dependencies(op3_soccer_node
   rclcpp
   ament_index_cpp
   std_msgs
@@ -66,36 +63,7 @@ ament_target_dependencies(op_demo_node
   YAML_CPP
 )
 
-add_executable(self_test_node 
-  src/test_node.cpp
-  src/soccer/soccer_demo.cpp
-  src/soccer/ball_tracker.cpp
-  src/soccer/ball_follower.cpp
-  src/action/action_demo.cpp
-  src/vision/vision_demo.cpp
-  src/vision/face_tracker.cpp
-  src/test/button_test.cpp
-  src/test/mic_test.cpp
-)
-
-ament_target_dependencies(self_test_node
-  rclcpp
-  ament_index_cpp
-  std_msgs
-  sensor_msgs
-  geometry_msgs
-  robotis_controller_msgs
-  op3_walking_module_msgs
-  op3_action_module_msgs
-  robotis_math
-  op3_ball_detector
-  op3_ball_detector_msgs
-  Boost
-  Eigen3
-  YAML_CPP
-)
-
-install(TARGETS op_demo_node self_test_node
+install(TARGETS op3_soccer_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -103,8 +71,8 @@ install(DIRECTORY include/${PROJECT_NAME}/
   DESTINATION include/${PROJECT_NAME}
 )
 
-install(DIRECTORY data launch list 
-  DESTINATION share/${PROJECT_NAME}
-)
+# install(DIRECTORY data launch list 
+#   DESTINATION share/${PROJECT_NAME}
+# )
 
 ament_package()

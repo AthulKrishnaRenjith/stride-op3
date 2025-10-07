@@ -17,7 +17,7 @@
 /* Author: Kayman Jung */
 
 #include <ament_index_cpp/get_package_share_directory.hpp>
-#include "op3_demo/soccer_demo.h"
+#include "op3_soccer/soccer_demo.h"
 
 namespace robotis_op
 {

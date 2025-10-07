@@ -31,9 +31,9 @@
 #include "robotis_controller_msgs/msg/joint_ctrl_module.hpp"
 #include "robotis_controller_msgs/srv/set_joint_module.hpp"
 
-#include "op3_demo/op_demo.h"
-#include "op3_demo/ball_tracker.h"
-#include "op3_demo/ball_follower.h"
+#include "op3_soccer/op_demo.h"
+#include "op3_soccer/ball_tracker.h"
+#include "op3_soccer/ball_follower.h"
 #include "robotis_math/robotis_linear_algebra.h"
 
 namespace robotis_op
