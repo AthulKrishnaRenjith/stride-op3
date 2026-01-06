@@ -1,0 +1,8 @@
+stride: 32
+names:
+  0: L-Intersection
+  1: T-Intersection
+  2: X-Intersection
+  3: ball
+  4: goalpost
+  5: robot

@@ -1,0 +1,1007 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="images" output_port_id="images" />
+		<IR name="images" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model.0.conv.weight" output_port_id="model.0.conv.weight" />
+		<IR name="model.0.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d" output_port_id="conv2d" />
+		<IR name="node_conv2d" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu" output_port_id="silu" />
+		<IR name="node_silu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.1.conv.weight" output_port_id="model.1.conv.weight" />
+		<IR name="model.1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_1" output_port_id="conv2d_1" />
+		<IR name="node_conv2d_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_1" output_port_id="silu_1" />
+		<IR name="node_silu_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.2.cv1.conv.weight" output_port_id="model.2.cv1.conv.weight" />
+		<IR name="model.2.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_2" output_port_id="conv2d_2" />
+		<IR name="node_conv2d_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_2" output_port_id="silu_2" />
+		<IR name="node_silu_2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.2.m.0.cv1.conv.weight" output_port_id="model.2.m.0.cv1.conv.weight" />
+		<IR name="model.2.m.0.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_3" output_port_id="conv2d_3" />
+		<IR name="node_conv2d_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_3" output_port_id="silu_3" />
+		<IR name="node_silu_3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.2.m.0.cv2.conv.weight" output_port_id="model.2.m.0.cv2.conv.weight" />
+		<IR name="model.2.m.0.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_4" output_port_id="conv2d_4" />
+		<IR name="node_conv2d_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_4" output_port_id="silu_4" />
+		<IR name="node_silu_4" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_add" output_port_id="add" />
+		<IR name="node_add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.2.cv2.conv.weight" output_port_id="model.2.cv2.conv.weight" />
+		<IR name="model.2.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_5" output_port_id="conv2d_5" />
+		<IR name="node_conv2d_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_5" output_port_id="silu_5" />
+		<IR name="node_silu_5" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_cat" output_port_id="cat" />
+		<IR name="node_cat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.2.cv3.conv.weight" output_port_id="model.2.cv3.conv.weight" />
+		<IR name="model.2.cv3.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_6" output_port_id="conv2d_6" />
+		<IR name="node_conv2d_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_6" output_port_id="silu_6" />
+		<IR name="node_silu_6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.3.conv.weight" output_port_id="model.3.conv.weight" />
+		<IR name="model.3.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_7" output_port_id="conv2d_7" />
+		<IR name="node_conv2d_7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_7" output_port_id="silu_7" />
+		<IR name="node_silu_7" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.4.cv1.conv.weight" output_port_id="model.4.cv1.conv.weight" />
+		<IR name="model.4.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_8" output_port_id="conv2d_8" />
+		<IR name="node_conv2d_8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_8" output_port_id="silu_8" />
+		<IR name="node_silu_8" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.4.m.0.cv1.conv.weight" output_port_id="model.4.m.0.cv1.conv.weight" />
+		<IR name="model.4.m.0.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_9" output_port_id="conv2d_9" />
+		<IR name="node_conv2d_9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_9" output_port_id="silu_9" />
+		<IR name="node_silu_9" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.4.m.0.cv2.conv.weight" output_port_id="model.4.m.0.cv2.conv.weight" />
+		<IR name="model.4.m.0.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_10" output_port_id="conv2d_10" />
+		<IR name="node_conv2d_10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_10" output_port_id="silu_10" />
+		<IR name="node_silu_10" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_add_1" output_port_id="add_1" />
+		<IR name="node_add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.4.m.1.cv1.conv.weight" output_port_id="model.4.m.1.cv1.conv.weight" />
+		<IR name="model.4.m.1.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_11" output_port_id="conv2d_11" />
+		<IR name="node_conv2d_11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_11" output_port_id="silu_11" />
+		<IR name="node_silu_11" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.4.m.1.cv2.conv.weight" output_port_id="model.4.m.1.cv2.conv.weight" />
+		<IR name="model.4.m.1.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_12" output_port_id="conv2d_12" />
+		<IR name="node_conv2d_12" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_12" output_port_id="silu_12" />
+		<IR name="node_silu_12" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_add_2" output_port_id="add_2" />
+		<IR name="node_add_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.4.cv2.conv.weight" output_port_id="model.4.cv2.conv.weight" />
+		<IR name="model.4.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_13" output_port_id="conv2d_13" />
+		<IR name="node_conv2d_13" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_13" output_port_id="silu_13" />
+		<IR name="node_silu_13" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_cat_1" output_port_id="cat_1" />
+		<IR name="node_cat_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.4.cv3.conv.weight" output_port_id="model.4.cv3.conv.weight" />
+		<IR name="model.4.cv3.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_14" output_port_id="conv2d_14" />
+		<IR name="node_conv2d_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_14" output_port_id="silu_14" />
+		<IR name="node_silu_14" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.5.conv.weight" output_port_id="model.5.conv.weight" />
+		<IR name="model.5.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_15" output_port_id="conv2d_15" />
+		<IR name="node_conv2d_15" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_15" output_port_id="silu_15" />
+		<IR name="node_silu_15" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.6.cv1.conv.weight" output_port_id="model.6.cv1.conv.weight" />
+		<IR name="model.6.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_16" output_port_id="conv2d_16" />
+		<IR name="node_conv2d_16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_16" output_port_id="silu_16" />
+		<IR name="node_silu_16" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.6.m.0.cv1.conv.weight" output_port_id="model.6.m.0.cv1.conv.weight" />
+		<IR name="model.6.m.0.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_17" output_port_id="conv2d_17" />
+		<IR name="node_conv2d_17" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_17" output_port_id="silu_17" />
+		<IR name="node_silu_17" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.6.m.0.cv2.conv.weight" output_port_id="model.6.m.0.cv2.conv.weight" />
+		<IR name="model.6.m.0.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_18" output_port_id="conv2d_18" />
+		<IR name="node_conv2d_18" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_18" output_port_id="silu_18" />
+		<IR name="node_silu_18" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_add_3" output_port_id="add_3" />
+		<IR name="node_add_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.6.m.1.cv1.conv.weight" output_port_id="model.6.m.1.cv1.conv.weight" />
+		<IR name="model.6.m.1.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_19" output_port_id="conv2d_19" />
+		<IR name="node_conv2d_19" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_19" output_port_id="silu_19" />
+		<IR name="node_silu_19" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.6.m.1.cv2.conv.weight" output_port_id="model.6.m.1.cv2.conv.weight" />
+		<IR name="model.6.m.1.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_20" output_port_id="conv2d_20" />
+		<IR name="node_conv2d_20" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_20" output_port_id="silu_20" />
+		<IR name="node_silu_20" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_add_4" output_port_id="add_4" />
+		<IR name="node_add_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.6.m.2.cv1.conv.weight" output_port_id="model.6.m.2.cv1.conv.weight" />
+		<IR name="model.6.m.2.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_21" output_port_id="conv2d_21" />
+		<IR name="node_conv2d_21" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_21" output_port_id="silu_21" />
+		<IR name="node_silu_21" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.6.m.2.cv2.conv.weight" output_port_id="model.6.m.2.cv2.conv.weight" />
+		<IR name="model.6.m.2.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_22" output_port_id="conv2d_22" />
+		<IR name="node_conv2d_22" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_22" output_port_id="silu_22" />
+		<IR name="node_silu_22" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_add_5" output_port_id="add_5" />
+		<IR name="node_add_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.6.cv2.conv.weight" output_port_id="model.6.cv2.conv.weight" />
+		<IR name="model.6.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_23" output_port_id="conv2d_23" />
+		<IR name="node_conv2d_23" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_23" output_port_id="silu_23" />
+		<IR name="node_silu_23" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_cat_2" output_port_id="cat_2" />
+		<IR name="node_cat_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.6.cv3.conv.weight" output_port_id="model.6.cv3.conv.weight" />
+		<IR name="model.6.cv3.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_24" output_port_id="conv2d_24" />
+		<IR name="node_conv2d_24" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_24" output_port_id="silu_24" />
+		<IR name="node_silu_24" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.7.conv.weight" output_port_id="model.7.conv.weight" />
+		<IR name="model.7.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_25" output_port_id="conv2d_25" />
+		<IR name="node_conv2d_25" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_25" output_port_id="silu_25" />
+		<IR name="node_silu_25" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.8.cv1.conv.weight" output_port_id="model.8.cv1.conv.weight" />
+		<IR name="model.8.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_26" output_port_id="conv2d_26" />
+		<IR name="node_conv2d_26" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_26" output_port_id="silu_26" />
+		<IR name="node_silu_26" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.8.m.0.cv1.conv.weight" output_port_id="model.8.m.0.cv1.conv.weight" />
+		<IR name="model.8.m.0.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_27" output_port_id="conv2d_27" />
+		<IR name="node_conv2d_27" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_27" output_port_id="silu_27" />
+		<IR name="node_silu_27" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.8.m.0.cv2.conv.weight" output_port_id="model.8.m.0.cv2.conv.weight" />
+		<IR name="model.8.m.0.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_28" output_port_id="conv2d_28" />
+		<IR name="node_conv2d_28" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_28" output_port_id="silu_28" />
+		<IR name="node_silu_28" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_add_6" output_port_id="add_6" />
+		<IR name="node_add_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.8.cv2.conv.weight" output_port_id="model.8.cv2.conv.weight" />
+		<IR name="model.8.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_29" output_port_id="conv2d_29" />
+		<IR name="node_conv2d_29" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_29" output_port_id="silu_29" />
+		<IR name="node_silu_29" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_cat_3" output_port_id="cat_3" />
+		<IR name="node_cat_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.8.cv3.conv.weight" output_port_id="model.8.cv3.conv.weight" />
+		<IR name="model.8.cv3.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_30" output_port_id="conv2d_30" />
+		<IR name="node_conv2d_30" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_30" output_port_id="silu_30" />
+		<IR name="node_silu_30" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.9.cv1.conv.weight" output_port_id="model.9.cv1.conv.weight" />
+		<IR name="model.9.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_31" output_port_id="conv2d_31" />
+		<IR name="node_conv2d_31" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_31" output_port_id="silu_31" />
+		<IR name="node_silu_31" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_max_pool2d" output_port_id="max_pool2d" />
+		<IR name="node_max_pool2d" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_max_pool2d_1" output_port_id="max_pool2d_1" />
+		<IR name="node_max_pool2d_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_max_pool2d_2" output_port_id="max_pool2d_2" />
+		<IR name="node_max_pool2d_2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_cat_4" output_port_id="cat_4" />
+		<IR name="node_cat_4" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.9.cv2.conv.weight" output_port_id="model.9.cv2.conv.weight" />
+		<IR name="model.9.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_32" output_port_id="conv2d_32" />
+		<IR name="node_conv2d_32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_32" output_port_id="silu_32" />
+		<IR name="node_silu_32" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.10.conv.weight" output_port_id="model.10.conv.weight" />
+		<IR name="model.10.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_33" output_port_id="conv2d_33" />
+		<IR name="node_conv2d_33" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_33" output_port_id="silu_33" />
+		<IR name="node_silu_33" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="val_37" output_port_id="val_37" />
+		<IR name="val_37" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="node_upsample_nearest2d" output_port_id="upsample_nearest2d" />
+		<IR name="node_upsample_nearest2d" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="node_cat_5" output_port_id="cat_5" />
+		<IR name="node_cat_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.13.cv1.conv.weight" output_port_id="model.13.cv1.conv.weight" />
+		<IR name="model.13.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_34" output_port_id="conv2d_34" />
+		<IR name="node_conv2d_34" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_34" output_port_id="silu_34" />
+		<IR name="node_silu_34" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.13.m.0.cv1.conv.weight" output_port_id="model.13.m.0.cv1.conv.weight" />
+		<IR name="model.13.m.0.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_35" output_port_id="conv2d_35" />
+		<IR name="node_conv2d_35" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_35" output_port_id="silu_35" />
+		<IR name="node_silu_35" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.13.m.0.cv2.conv.weight" output_port_id="model.13.m.0.cv2.conv.weight" />
+		<IR name="model.13.m.0.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_36" output_port_id="conv2d_36" />
+		<IR name="node_conv2d_36" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_36" output_port_id="silu_36" />
+		<IR name="node_silu_36" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.13.cv2.conv.weight" output_port_id="model.13.cv2.conv.weight" />
+		<IR name="model.13.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_37" output_port_id="conv2d_37" />
+		<IR name="node_conv2d_37" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_37" output_port_id="silu_37" />
+		<IR name="node_silu_37" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_cat_6" output_port_id="cat_6" />
+		<IR name="node_cat_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.13.cv3.conv.weight" output_port_id="model.13.cv3.conv.weight" />
+		<IR name="model.13.cv3.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_38" output_port_id="conv2d_38" />
+		<IR name="node_conv2d_38" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_38" output_port_id="silu_38" />
+		<IR name="node_silu_38" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.14.conv.weight" output_port_id="model.14.conv.weight" />
+		<IR name="model.14.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_39" output_port_id="conv2d_39" />
+		<IR name="node_conv2d_39" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_39" output_port_id="silu_39" />
+		<IR name="node_silu_39" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_upsample_nearest2d_1" output_port_id="upsample_nearest2d_1" />
+		<IR name="node_upsample_nearest2d_1" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="node_cat_7" output_port_id="cat_7" />
+		<IR name="node_cat_7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.17.cv1.conv.weight" output_port_id="model.17.cv1.conv.weight" />
+		<IR name="model.17.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_40" output_port_id="conv2d_40" />
+		<IR name="node_conv2d_40" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_40" output_port_id="silu_40" />
+		<IR name="node_silu_40" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.17.m.0.cv1.conv.weight" output_port_id="model.17.m.0.cv1.conv.weight" />
+		<IR name="model.17.m.0.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_41" output_port_id="conv2d_41" />
+		<IR name="node_conv2d_41" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_41" output_port_id="silu_41" />
+		<IR name="node_silu_41" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.17.m.0.cv2.conv.weight" output_port_id="model.17.m.0.cv2.conv.weight" />
+		<IR name="model.17.m.0.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_42" output_port_id="conv2d_42" />
+		<IR name="node_conv2d_42" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_42" output_port_id="silu_42" />
+		<IR name="node_silu_42" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.17.cv2.conv.weight" output_port_id="model.17.cv2.conv.weight" />
+		<IR name="model.17.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_43" output_port_id="conv2d_43" />
+		<IR name="node_conv2d_43" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_43" output_port_id="silu_43" />
+		<IR name="node_silu_43" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_cat_8" output_port_id="cat_8" />
+		<IR name="node_cat_8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.17.cv3.conv.weight" output_port_id="model.17.cv3.conv.weight" />
+		<IR name="model.17.cv3.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_44" output_port_id="conv2d_44" />
+		<IR name="node_conv2d_44" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_44" output_port_id="silu_44" />
+		<IR name="node_silu_44" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.24.m.0.weight" output_port_id="model.24.m.0.weight" />
+		<IR name="model.24.m.0.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_57" output_port_id="conv2d_57" />
+		<IR name="node_conv2d_57" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="val_68" output_port_id="val_68" />
+		<IR name="val_68" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="node_view" output_port_id="view" />
+		<IR name="node_view" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_permute" output_port_id="permute" />
+		<IR name="node_permute" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_sigmoid" output_port_id="sigmoid" />
+		<IR name="node_sigmoid" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="val_69" output_port_id="val_69" />
+		<IR name="val_69" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="node_Split_102" output_port_id="split_with_sizes_split_0" />
+		<IR name="node_Split_102" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="node_Split_102" output_port_id="split_with_sizes_split_1" />
+		<IR name="node_Split_102" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="node_Split_102" output_port_id="split_with_sizes_split_2" />
+		<IR name="node_Split_102" output_port_id="5" />
+	</map>
+	<map>
+		<framework name="node_mul_1" output_port_id="mul_1" />
+		<IR name="node_mul_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_mul_2" output_port_id="mul_2" />
+		<IR name="node_mul_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_pow_1" output_port_id="pow_1" />
+		<IR name="node_pow_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.24.lifted_tensor_1" output_port_id="model.24.lifted_tensor_1" />
+		<IR name="model.24.lifted_tensor_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_mul_3" output_port_id="mul_3" />
+		<IR name="node_mul_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_cat_13" output_port_id="cat_13" />
+		<IR name="node_cat_13" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="val_78" output_port_id="val_78" />
+		<IR name="val_78" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="node_view_1" output_port_id="view_1" />
+		<IR name="node_view_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.18.conv.weight" output_port_id="model.18.conv.weight" />
+		<IR name="model.18.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_45" output_port_id="conv2d_45" />
+		<IR name="node_conv2d_45" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_45" output_port_id="silu_45" />
+		<IR name="node_silu_45" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_cat_9" output_port_id="cat_9" />
+		<IR name="node_cat_9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.20.cv1.conv.weight" output_port_id="model.20.cv1.conv.weight" />
+		<IR name="model.20.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_46" output_port_id="conv2d_46" />
+		<IR name="node_conv2d_46" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_46" output_port_id="silu_46" />
+		<IR name="node_silu_46" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.20.m.0.cv1.conv.weight" output_port_id="model.20.m.0.cv1.conv.weight" />
+		<IR name="model.20.m.0.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_47" output_port_id="conv2d_47" />
+		<IR name="node_conv2d_47" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_47" output_port_id="silu_47" />
+		<IR name="node_silu_47" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.20.m.0.cv2.conv.weight" output_port_id="model.20.m.0.cv2.conv.weight" />
+		<IR name="model.20.m.0.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_48" output_port_id="conv2d_48" />
+		<IR name="node_conv2d_48" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_48" output_port_id="silu_48" />
+		<IR name="node_silu_48" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.20.cv2.conv.weight" output_port_id="model.20.cv2.conv.weight" />
+		<IR name="model.20.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_49" output_port_id="conv2d_49" />
+		<IR name="node_conv2d_49" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_49" output_port_id="silu_49" />
+		<IR name="node_silu_49" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_cat_10" output_port_id="cat_10" />
+		<IR name="node_cat_10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.20.cv3.conv.weight" output_port_id="model.20.cv3.conv.weight" />
+		<IR name="model.20.cv3.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_50" output_port_id="conv2d_50" />
+		<IR name="node_conv2d_50" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_50" output_port_id="silu_50" />
+		<IR name="node_silu_50" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.24.m.1.weight" output_port_id="model.24.m.1.weight" />
+		<IR name="model.24.m.1.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_58" output_port_id="conv2d_58" />
+		<IR name="node_conv2d_58" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="val_85" output_port_id="val_85" />
+		<IR name="val_85" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="node_view_2" output_port_id="view_2" />
+		<IR name="node_view_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_permute_1" output_port_id="permute_1" />
+		<IR name="node_permute_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_sigmoid_1" output_port_id="sigmoid_1" />
+		<IR name="node_sigmoid_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_Split_107" output_port_id="split_with_sizes_1_split_0" />
+		<IR name="node_Split_107" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="node_Split_107" output_port_id="split_with_sizes_1_split_1" />
+		<IR name="node_Split_107" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="node_Split_107" output_port_id="split_with_sizes_1_split_2" />
+		<IR name="node_Split_107" output_port_id="5" />
+	</map>
+	<map>
+		<framework name="node_mul_5" output_port_id="mul_5" />
+		<IR name="node_mul_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_mul_6" output_port_id="mul_6" />
+		<IR name="node_mul_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_pow_2" output_port_id="pow_2" />
+		<IR name="node_pow_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.24.lifted_tensor_3" output_port_id="model.24.lifted_tensor_3" />
+		<IR name="model.24.lifted_tensor_3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_mul_7" output_port_id="mul_7" />
+		<IR name="node_mul_7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_cat_14" output_port_id="cat_14" />
+		<IR name="node_cat_14" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="val_91" output_port_id="val_91" />
+		<IR name="val_91" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="node_view_3" output_port_id="view_3" />
+		<IR name="node_view_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.21.conv.weight" output_port_id="model.21.conv.weight" />
+		<IR name="model.21.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_51" output_port_id="conv2d_51" />
+		<IR name="node_conv2d_51" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_51" output_port_id="silu_51" />
+		<IR name="node_silu_51" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_cat_11" output_port_id="cat_11" />
+		<IR name="node_cat_11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.23.cv1.conv.weight" output_port_id="model.23.cv1.conv.weight" />
+		<IR name="model.23.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_52" output_port_id="conv2d_52" />
+		<IR name="node_conv2d_52" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_52" output_port_id="silu_52" />
+		<IR name="node_silu_52" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.23.m.0.cv1.conv.weight" output_port_id="model.23.m.0.cv1.conv.weight" />
+		<IR name="model.23.m.0.cv1.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_53" output_port_id="conv2d_53" />
+		<IR name="node_conv2d_53" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_53" output_port_id="silu_53" />
+		<IR name="node_silu_53" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.23.m.0.cv2.conv.weight" output_port_id="model.23.m.0.cv2.conv.weight" />
+		<IR name="model.23.m.0.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_54" output_port_id="conv2d_54" />
+		<IR name="node_conv2d_54" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_54" output_port_id="silu_54" />
+		<IR name="node_silu_54" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.23.cv2.conv.weight" output_port_id="model.23.cv2.conv.weight" />
+		<IR name="model.23.cv2.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_55" output_port_id="conv2d_55" />
+		<IR name="node_conv2d_55" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_55" output_port_id="silu_55" />
+		<IR name="node_silu_55" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_cat_12" output_port_id="cat_12" />
+		<IR name="node_cat_12" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.23.cv3.conv.weight" output_port_id="model.23.cv3.conv.weight" />
+		<IR name="model.23.cv3.conv.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_56" output_port_id="conv2d_56" />
+		<IR name="node_conv2d_56" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_silu_56" output_port_id="silu_56" />
+		<IR name="node_silu_56" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.24.m.2.weight" output_port_id="model.24.m.2.weight" />
+		<IR name="model.24.m.2.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_conv2d_59" output_port_id="conv2d_59" />
+		<IR name="node_conv2d_59" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="val_98" output_port_id="val_98" />
+		<IR name="val_98" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="node_view_4" output_port_id="view_4" />
+		<IR name="node_view_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_permute_2" output_port_id="permute_2" />
+		<IR name="node_permute_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_sigmoid_2" output_port_id="sigmoid_2" />
+		<IR name="node_sigmoid_2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_Split_112" output_port_id="split_with_sizes_2_split_0" />
+		<IR name="node_Split_112" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="node_Split_112" output_port_id="split_with_sizes_2_split_1" />
+		<IR name="node_Split_112" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="node_Split_112" output_port_id="split_with_sizes_2_split_2" />
+		<IR name="node_Split_112" output_port_id="5" />
+	</map>
+	<map>
+		<framework name="node_mul_9" output_port_id="mul_9" />
+		<IR name="node_mul_9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_mul_10" output_port_id="mul_10" />
+		<IR name="node_mul_10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_pow_3" output_port_id="pow_3" />
+		<IR name="node_pow_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.24.lifted_tensor_5" output_port_id="model.24.lifted_tensor_5" />
+		<IR name="model.24.lifted_tensor_5" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="node_mul_11" output_port_id="mul_11" />
+		<IR name="node_mul_11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="node_cat_15" output_port_id="cat_15" />
+		<IR name="node_cat_15" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="val_104" output_port_id="val_104" />
+		<IR name="val_104" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="node_view_5" output_port_id="view_5" />
+		<IR name="node_view_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="output0" output_port_id="output0" />
+		<IR name="output0" output_port_id="3" />
+	</map>
+</mapping>
