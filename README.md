@@ -39,28 +39,28 @@ The converted .blob model is executed on the OAK device using the Luxonis exampl
 
 1. Clone Example Repository:  
    ```
-   git clone \[https://github.com/luxonis/oak-examples.git\](https://github.com/luxonis/oak-examples.git)
+   git clone https://github.com/luxonis/oak-examples.git
    ```
 2. Navigate to Target Branch/Directory:
    ```
    cd oak-examples  
    git checkout master  
    cd gen2-yolo/device-decoding/
-
+   ```
 3. Create Virtual Environment (Recommended):
    ```  
-   python3 \-m venv venv  
+   python3 -m venv venv  
    source venv/bin/activate
-
+   ```
 4. Install Dependencies:
    ```
-   python3 \-m pip install \-r requirements.txt
-
+   python3 -m pip install -r requirements.txt
+   ```
 5. Place converted files: Move the downloaded .blob and config .json files into the gen2-yolo/device-decoding/ folder.  
 6. Run the Application:
    ```
    python3 main.py -m best_openvino_2021.4_6shave.blob -c best.json
-
+   ```
 ## 4. Performance Benchmarks
 
 The system was migrated from an onboard Intel NUC (CPU) to an optimized INT8 VPU pipeline to meet the strict latency requirements for closed-loop humanoid control.
@@ -122,9 +122,9 @@ ros2 launch depthai_ros_driver camera.launch.py \\
 
 | Parameter | Type | Value | Description |
 | :---- | :---- | :---- | :---- |
-| nn.i\_nn\_config\_path | string | Full path | Full path to JSON config file (defines labels, input size, etc.). |
-| nn.i\_blob\_path | string | Full path | Full path to compiled MyriadX BLOB model file. |
-| camera.i\_nn\_type | string | spatial or rgb | Set to spatial for 3D coordinates (Spatial YOLO) or rgb for only 2D bounding boxes. |
+| nn.i_nn_config_path | string | Full path | Full path to JSON config file (defines labels, input size, etc.). |
+| nn.i_blob_path | string | Full path | Full path to compiled MyriadX BLOB model file. |
+| camera.i_nn_type | string | spatial or rgb | Set to spatial for 3D coordinates (Spatial YOLO) or rgb for only 2D bounding boxes. |
 
 ## 7. Visualization using depthai_filters
 
@@ -146,7 +146,7 @@ Launch the Camera Driver (as shown in Section 2, ensuring your custom NN is runn
 Launch the Filter Node The depthai_filters package provides an example launch file to start the overlay node:  
 
 ```
-   ros2 launch depthai\_filters example\_det2d\_overlay.launch.py
+   ros2 launch depthai_filters example_det2d_overlay.launch.py
 ```
 Note: If detections appear misaligned, you may need to adjust the rgb.i_preview_size parameter in your camera driver launch to match the expected resolution of your NN.
 
@@ -154,7 +154,7 @@ View the Overlayed Topic
 
 The filter node publishes the final image, typically to /oak/nn/overlay_image. Use rqt_image_view to visualize this topic in real-time:
 ```  
-   ros2 run rqt\_image\_view rqt\_image\_view /oak/nn/overlay\_image
+   ros2 run rqt_image_view rqt_image_view /oak/nn/overlay_image
 ```
 
 This view provides the bounding boxes drawn directly onto the image, confirming that both your custom NN and the ROS pipeline are functioning correctly.
